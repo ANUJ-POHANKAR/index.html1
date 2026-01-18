@@ -13,7 +13,7 @@ jobs:
           key: ${{ secrets.KEY }}
           port: ${{ secrets.PORT }}
           script: |
-              git clone git clone https://github.com/ANUJ-POHANKAR/index.html1.git
+              git clone https://github.com/ANUJ-POHANKAR/index.html1.git
               cd index.html1
               sudo chmod 666 /var/www/html/index.html
               sudo cp index.html /var/www/html/index.html
